@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'webmachine', github: 'seancribbs/webmachine-ruby'
+gem 'webmachine', github: 'seancribbs/webmachine-ruby', branch: 'reel-adapter-fixups'
 gem 'rbnacl',     github: 'cryptosphere/rbnacl'
 
 gem 'celluloid',    github: 'celluloid/celluloid'
