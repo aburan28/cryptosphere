@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-gem 'webmachine', github: 'seancribbs/webmachine-ruby', branch: 'reel-adapter-fixups'
+gem 'webmachine', github: 'seancribbs/webmachine-ruby'
 gem 'rbnacl',     github: 'cryptosphere/rbnacl'
 
 gem 'celluloid',    github: 'celluloid/celluloid'
 gem 'celluloid-io', github: 'celluloid/celluloid-io'
-gem 'reel',         github: 'celluloid/reel', branch: 'request-body-objects'
+gem 'reel',         github: 'celluloid/reel'
 gem 'http',         github: 'tarcieri/http'
 
 gem 'jruby-openssl', platform: 'jruby'
